@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {% block title %} {% endblock %} </title>
+</head>
+<body>
+    <header>{% include 'perudo/header.html' %}</header>
+    {% block content %} There's no content( {% endblock %}
+    <footer>{% include 'perudo/footer.html' %}</footer>
+</body>
+</html>
